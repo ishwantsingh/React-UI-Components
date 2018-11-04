@@ -1,24 +1,35 @@
 import React from 'react';
 import './App.css';
+import ImageThumbnail from '../src/components/HeaderComponents/ImageThumbnail';
+import HeaderTitle from '../src/components/HeaderComponents/HeaderTitle';
+import HeaderContent from '../src/components/HeaderComponents/HeaderContent';
+// import HeaderContainer from '../src/components/HeaderComponents/HeaderContainer';
+import CardBanner from '../src/components/CardComponents/CardBanner'
+import CardContent from '../src/components/CardComponents/CardContent'
+
+
 
 const App = () => {
   return (
     <div>
-      <h3>Welcome to React Social Card!</h3>
-      <p>
-        Begin by exploring the `components` directory. You'll notice we have a
-        few files that we've already included in there to get you started right
-        away building components. You'll need to make sure you include your
-        components that you build in this file to watch your app come to life
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+      
+      <section className="head">
+        <ImageThumbnail />
+        <section>
+          <HeaderTitle />
+          <HeaderContent />
+
+        </section>
+
+      </section>
+     
+      <section onClick={() => window.open("https://www.reactjs.org/", "new window")} className="card">
+        <CardBanner />
+        <CardContent />
+      </section>
     </div>
   );
+
 };
 
 export default App;

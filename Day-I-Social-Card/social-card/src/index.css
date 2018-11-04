@@ -1,5 +1,11 @@
 body {
-  margin: 0;
-  padding: 0.4rem;
+  margin: 5rem auto;
+  padding: 0.5rem 2.5rem 0.5rem 1rem;
   font-family: sans-serif;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  width:40%;
+  border: solid gray 1px;
+  
 }
