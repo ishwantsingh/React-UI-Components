@@ -1,0 +1,52 @@
+/* .number-button {
+    width: 200px;
+    height: 200px;
+} */
+
+.button-look {
+    width: 50px;
+    height: 50px;
+}
+
+.clear{
+    width: 150px;
+    height:50px;
+}
+
+.calculator {
+    display:flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+}
+
+.devide{
+    justify-content: flex-start;
+}
+
+.action-button {
+    width: 150px;
+}
+
+.all-buttons {
+    display: flex;
+}
+
+.zero {
+    width: 150px;
+}
+
+.operator {
+    background-color: darkred;
+    color: white;
+    font-size: 35px;
+}
+
+.X {
+    font-size: 25px;
+}
+
+.minus {
+    font-size: 45px;
+}

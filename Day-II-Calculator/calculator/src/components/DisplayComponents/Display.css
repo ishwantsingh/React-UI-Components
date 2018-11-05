@@ -1,0 +1,8 @@
+.calculator-look {
+    background-color: rgb(43, 39, 39);
+    width: 200px;
+    height: 50px;
+    opacity: 0.5;
+    font-size: 37px;
+    color: white;
+}
